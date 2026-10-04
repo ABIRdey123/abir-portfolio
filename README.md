@@ -35,4 +35,14 @@ public/         static files (resume.pdf goes here)
 
 ## Deploying
 
-The easiest option is [Vercel](https://vercel.com/): push the folder to a GitHub repo and import it. No configuration is needed.
+Live at <https://abir-portfolio-rosy.vercel.app>.
+
+The GitHub repo is connected to Vercel, so every push to `main` deploys automatically:
+
+```bash
+git add -A
+git commit -m "Describe your change"
+git push
+```
+
+Pushes to other branches get their own preview URL. Build status and logs are in the Vercel dashboard.
